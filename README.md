@@ -6,7 +6,7 @@ run `ytdt` after finishing the installation and it'll give you a few options for
 - The video's URL or a search query to search for the video within the tool
 - Download path
 - File format
-(note: If you used a search query it gives you the option to select one of the first 5 results)
+- (note: If you used a search query it gives you the option to select one of the first 5 results)
 ## Installation
 ### Clone the repo
  ```bash
