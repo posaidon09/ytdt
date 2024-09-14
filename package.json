@@ -20,5 +20,10 @@
   "keywords": [],
   "author": "posaidon",
   "license": "ISC",
-  "description": "a badly written youtube downloader"
+  "description": "a badly written youtube downloader",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/posaidon09/ytdt.git"
+  }
+    
 }
