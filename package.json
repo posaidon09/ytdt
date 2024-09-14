@@ -15,9 +15,9 @@
   "bin": {
     "ytdt": "index.js"
   },
-  "version": "1.1.4",
+  "version": "1.1.5",
   "main": "index.js",
-  "keywords": [],
+  "keywords": ["youtube", "youtube-downloader", "downloader"],
   "author": "posaidon",
   "license": "ISC",
   "description": "a badly written youtube downloader",
