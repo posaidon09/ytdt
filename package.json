@@ -15,9 +15,16 @@
   "bin": {
     "ytdt": "index.js"
   },
-  "version": "1.1.5",
+  "version": "1.1.6",
   "main": "index.js",
-  "keywords": ["youtube", "youtube-downloader", "downloader"],
+  "keywords": [
+    "youtube",
+    "youtube-downloader",
+    "downloader",
+    "cli",
+    "command-line",
+    "command-line-tool"
+  ],
   "author": "posaidon",
   "license": "ISC",
   "description": "a badly written youtube downloader",
@@ -25,5 +32,4 @@
     "type": "git",
     "url": "git+https://github.com/posaidon09/ytdt.git"
   }
-    
 }

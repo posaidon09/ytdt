@@ -12,4 +12,4 @@ run `ytdt` after finishing the installation and it'll give you a few options for
  npm i -g ytdt # might have to use sudo if you're using linux
  ```
 ### Requirements
- - node
+ - [node](https://nodejs.org/en)
