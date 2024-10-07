@@ -1,4 +1,4 @@
-# Ytdt
+# YouTube Downloader Thingy
  A poorly written Youtube video downloader
 
 ## Usage
