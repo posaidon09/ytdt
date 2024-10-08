@@ -15,7 +15,19 @@ export default async function Download(url, downloadpath, format, subtitles) {
     if (url.match(regex) !== null) {
       let id = url.match(regex)[1];
       let r = await yts({ videoId: id });
-      filename = r.title.replace("/", " ");
+      filename = r.title
+         .replaceAll("/", "_")
+         .replaceAll("'", "")
+         .replaceAll('"', "")
+         .replaceAll(":", "_")
+         .replaceAll("\\", "_")
+         .replaceAll("?", "")
+         .replaceAll("*", "")
+         .replaceAll("|", "-")
+         .replaceAll("<", "")
+         .replaceAll(">", "")
+         .replaceAll("~", "-")
+         .replaceAll(" ", "_");
     }
 
     if (!fs.existsSync(downloadpath)) {
