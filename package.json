@@ -1,0 +1,35 @@
+{
+  "dependencies": {
+    "@distube/ytdl-core": "^4.14.4",
+    "chalk": "^5.3.0",
+    "commander": "^12.1.0",
+    "fluent-ffmpeg": "^2.1.3",
+    "inquirer": "^9.3.4",
+    "inquirer-fuzzy-path": "^2.3.0",
+    "yt-search": "^2.11.1",
+    "ytdl-core": "^4.11.5"
+  },
+  "name": "ytdt",
+  "exports": "./index.js",
+  "type": "module",
+  "bin": {
+    "ytdt": "index.js"
+  },
+  "version": "1.1.6",
+  "main": "index.js",
+  "keywords": [
+    "youtube",
+    "youtube-downloader",
+    "downloader",
+    "cli",
+    "command-line",
+    "command-line-tool"
+  ],
+  "author": "posaidon",
+  "license": "ISC",
+  "description": "a badly written youtube downloader",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/posaidon09/ytdt.git"
+  }
+}
